@@ -9,7 +9,7 @@ Coding challenge to display a list of orders with their discounts calculated bas
 Featuring SOLID principles and clean code practices.
 <br/>
 <br/>
-Tests re included to test anything with logic and located in the OrderAppTests folder.
+Tests are included to test anything with logic and located in the OrderAppTests folder.
 <br/>
 <br/>
 Data layer is fully mocked and introduced as an external library located in the Shared folder for ease of running the app while still showcasing apps persistence.
