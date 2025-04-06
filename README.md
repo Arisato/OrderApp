@@ -3,7 +3,7 @@
 Intro:
 <br/>
 <br/>
-Coding challenge to display a list of orders with their discounts calculated based on business rules provided.
+Coding challenge to build a web app and display a list of orders with their discounts calculated based on business rules provided.
 <br/>
 <br/>
 Featuring SOLID principles and clean code practices.
