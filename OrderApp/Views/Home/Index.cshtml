@@ -1,0 +1,30 @@
+﻿@using OrderApp.Models.ViewModels
+@model OrderViewModel
+
+@{
+    ViewData["Title"] = "Orders";
+}
+
+<div class="mt-5">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Order Id</th>
+                <th>Order Date</th>
+                <th>Customer Name</th>
+                <th>Cost</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model.OrderList)
+            {
+                <tr>
+                    <td>@order.OrderId</td>
+                    <td>@order.OrderDate</td>
+                    <td>@order.FirstName @order.LastName</td>
+                    <td>@order.TotalCost</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
