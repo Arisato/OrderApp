@@ -19,6 +19,10 @@ Business Rules:
 <br/>
 <img width="469" alt="businessrules" src="https://github.com/user-attachments/assets/87ab4f32-7ac8-46ac-ad38-3fa941b1f44c" />
 
-Manual:
+Running App Sample:
+<br/>
+<br/>
+<img width="733" alt="sample" src="https://github.com/user-attachments/assets/dee427ab-a01e-4daa-85ac-e45c8be7f080" />
 
+Manual:
 1. Simply run the app located in the OrderApp folder with the defaultt project set to "OrderApp".
