@@ -14,10 +14,8 @@ namespace OrderApp.Helpers
             {
                 return Calculate(price, quantity, DiscountBracket.Ten);
             }
-            else
-            {
-                return Calculate(price, 30, DiscountBracket.Fifteen) + Calculate(price, quantity - 30, DiscountBracket.Twenty);
-            }
+            
+            return Calculate(price, 30, DiscountBracket.Fifteen) + Calculate(price, quantity - 30, DiscountBracket.Twenty);
         }
 
         private static decimal Calculate(decimal price, int quantity, decimal discount) 
